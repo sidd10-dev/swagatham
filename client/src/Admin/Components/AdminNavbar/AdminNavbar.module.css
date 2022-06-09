@@ -1,0 +1,48 @@
+.admin-navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #22333B; */
+}
+
+.admin-navbar-elements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.admin-navbar-user {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.admin-navbar-element {
+  width: 7rem;
+  margin-right: 3rem;
+  /* border: #53503f solid 0.1rem;
+  box-shadow: 0.05rem 0.05rem 0.3rem #53503f; */
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1.5rem;
+  transition: 0.5s;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.admin-navbar-element:hover {
+  /* background-color: #53503f;
+  box-shadow: 0.1rem 0.1rem 1rem #53503f; */
+  /* color: #eae085; */
+  font-size: 1.2rem;
+}
+
+.admin-navbar-pic {
+  width: 15%;
+  margin-left: 1rem;
+  margin-top: 0.7rem;
+}
